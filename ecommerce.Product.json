@@ -1,0 +1,566 @@
+[{
+  "_id": {
+    "$oid": "66d0236423d06ab266f5e7cc"
+  },
+  "brand": "Apple",
+  "category": "Electronics",
+  "name": "Apple AirPods Pro",
+  "image": [
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/headphone/e/a/f/-original-imagtc44nk4b3hfg.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/headphone/9/k/m/-original-imagtdqgzfnjwwqp.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/headphone/6/6/h/-original-imagtdqgnhzehtgm.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/headphone/i/z/k/-original-imagtc447zmxjdpq.jpeg?q=70&crop=false"
+  ],
+  "discountedPrice": "24,999",
+  "originalPrice": "29,900",
+  "discount": 16,
+  "assuredBadge": true,
+  "freeDelivery": true
+},
+{
+  "_id": {
+    "$oid": "66d0236423d06ab266f5e7cd"
+  },
+  "brand": "Samsung",
+  "category": "Electronics",
+  "name": "Samsung Galaxy S21",
+  "image": [
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/mobile/z/j/v/galaxy-s21-fe-5g-sm-g990blv4ins-samsung-original-imah3nhk5c4dncfm.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/mobile/j/e/f/galaxy-s21-fe-5g-sm-g990blv4ins-samsung-original-imah3nhkyfzg8cgs.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/mobile/g/v/l/galaxy-s21-fe-5g-sm-g990blv4ins-samsung-original-imah3nhkuy6g2e7s.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/mobile/e/y/l/galaxy-s21-fe-5g-sm-g990blv4ins-samsung-original-imah3nhkjnsucgy5.jpeg?q=70&crop=false"
+  ],
+  "discountedPrice": "54,999",
+  "originalPrice": "69,999",
+  "discount": 21,
+  "assuredBadge": false,
+  "freeDelivery": true
+},
+{
+  "_id": {
+    "$oid": "66d0236423d06ab266f5e7ce"
+  },
+  "brand": "Sony",
+  "category": "Electronics",
+  "name": "Sony WH-1000XM4",
+  "image": [
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/headphone/2/j/l/-original-imah28h4mwkywgfu.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/l1dwknk0/headphone/k/e/b/wh-1000xm4-sony-original-imagcywf4e5dtq6w.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/l1dwknk0/headphone/c/z/b/wh-1000xm4-sony-original-imagcywfxgezwmwn.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/l1dwknk0/headphone/c/3/3/wh-1000xm4-sony-original-imagcywfuzgnxe9z.jpeg?q=70&crop=false"
+  ],
+  "discountedPrice": "29,999",
+  "originalPrice": "34,999",
+  "discount": 14,
+  "assuredBadge": true,
+  "freeDelivery": true
+},
+{
+  "_id": {
+    "$oid": "66d0236423d06ab266f5e7cf"
+  },
+  "brand": "Dell",
+  "category": "Electronics",
+  "name": "Dell XPS 13",
+  "image": [
+    "https://rukminim2.flixcart.com/image/128/128/kp5sya80/screen-guard/tempered-glass/o/v/n/apple-macbook-air-m1-13-3-inch-lightwings-original-imag3gh5xftgbpg3.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/kruyw7k0/computer/7/s/m/na-thin-and-light-laptop-apple-original-imag5jt7khzzmh4w.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/kruyw7k0/computer/h/l/6/na-thin-and-light-laptop-apple-original-imag5jt7fx4gfun4.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/kruyw7k0/computer/p/s/p/na-thin-and-light-laptop-apple-original-imag5jt7zpmhsrpm.jpeg?q=70&crop=false"
+  ],
+  "discountedPrice": "89,999",
+  "originalPrice": "99,999",
+  "discount": 10,
+  "assuredBadge": true,
+  "freeDelivery": true
+},
+{
+  "_id": {
+    "$oid": "66d0236423d06ab266f5e7d0"
+  },
+  "brand": "HP",
+  "category": "Electronics",
+  "name": "HP Spectre x360",
+  "image": [
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/computer/c/4/n/-original-imagy2veswxy6xz5.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/computer/2/8/j/-original-imagy2veeffwdgeh.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/computer/4/0/p/-original-imagy2veqe6j847k.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/computer/f/w/n/-original-imagy2veanhguetz.jpeg?q=70&crop=false"
+  ],
+  "discountedPrice": "1,09,999",
+  "originalPrice": "1,20,000",
+  "discount": 8,
+  "assuredBadge": false,
+  "freeDelivery": true
+},
+{
+  "_id": {
+    "$oid": "66d0236423d06ab266f5e7d1"
+  },
+  "brand": "Canon",
+  "category": "Electronics",
+  "name": "Canon EOS R6",
+  "image": [
+    "https://rukminim2.flixcart.com/image/128/128/kzegk280/dslr-camera/9/x/t/eos-r3-24-1-4895c010aa-canon-original-imagbf5wqzue69ag.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/kzegk280/dslr-camera/b/a/i/eos-r3-24-1-4895c010aa-canon-original-imagbf5wshe6pjrn.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/kzegk280/dslr-camera/g/v/x/eos-r3-24-1-4895c010aa-canon-original-imagbf5wxybzhgdj.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/kzegk280/dslr-camera/k/s/h/eos-r3-24-1-4895c010aa-canon-original-imagbf5wfhhfuekb.jpeg?q=70&crop=false"
+  ],
+  "discountedPrice": "1,54,999",
+  "originalPrice": "1,79,999",
+  "discount": 14,
+  "assuredBadge": true,
+  "freeDelivery": true
+},
+{
+  "_id": {
+    "$oid": "66d0236423d06ab266f5e7d2"
+  },
+  "brand": "OnePlus",
+  "category": "Electronics",
+  "name": "OnePlus 9 Pro",
+  "image": [
+    "https://rukminim2.flixcart.com/image/128/128/l27wtjk0/mobile/9/r/k/9-pro-le2121-oneplus-original-imagdm32cghygymk.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/l27wtjk0/mobile/c/k/u/9-pro-le2121-oneplus-original-imagdm32xjj7yge3.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/l27wtjk0/mobile/i/t/v/9-pro-le2121-oneplus-original-imagdm32wypz44tr.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/l27wtjk0/mobile/z/z/m/9-pro-le2121-oneplus-original-imagdm32qt73vrgs.jpeg?q=70&crop=false"
+  ],
+  "discountedPrice": "64,999",
+  "originalPrice": "69,999",
+  "discount": 7,
+  "assuredBadge": true,
+  "freeDelivery": false
+},
+{
+  "_id": {
+    "$oid": "66d0236423d06ab266f5e7d3"
+  },
+  "brand": "Xiaomi",
+  "category": "Electronics",
+  "name": "Xiaomi Mi 11",
+  "image": [
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/mobile/d/a/a/11t-pro-5g-hyperphone-mzb0aftin-xiaomi-original-imah27t2qswsutve.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/mobile/7/l/q/11t-pro-5g-hyperphone-mzb0aftin-xiaomi-original-imah27t2j4y7qggg.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/mobile/v/w/r/11t-pro-5g-hyperphone-mzb0aftin-xiaomi-original-imah27t2qkn6a5gg.jpeg?q=70&crop=false"
+  ],
+  "discountedPrice": "43,999",
+  "originalPrice": "49,999",
+  "discount": 12,
+  "assuredBadge": false,
+  "freeDelivery": true
+},
+{
+  "_id": {
+    "$oid": "66d0236423d06ab266f5e7d4"
+  },
+  "brand": "Fitbit",
+  "category": "Electronics",
+  "name": "Fitbit Charge 5",
+  "image": [
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/smartwatch/o/r/6/1-04-fb421glwt-frcjk-android-ios-fitbit-no-original-imagh465jqnx3tac.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/smartwatch/g/f/k/1-04-fb421glwt-frcjk-android-ios-fitbit-no-original-imagh465jb5rhzqv.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/smartwatch/d/w/l/1-04-fb421glwt-frcjk-android-ios-fitbit-no-original-imagh465ryfgrfwb.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/smartwatch/9/b/t/1-04-fb421glwt-frcjk-android-ios-fitbit-no-original-imagh465duhu2fcz.jpeg?q=70&crop=false"
+  ],
+  "discountedPrice": "10,499",
+  "originalPrice": "12,000",
+  "discount": 13,
+  "assuredBadge": true,
+  "freeDelivery": true
+},
+{
+  "_id": {
+    "$oid": "66d0236423d06ab266f5e7d5"
+  },
+  "brand": "Oculus",
+  "category": "Electronics",
+  "name": "Oculus Quest 2",
+  "image": [
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/motion-controller/m/v/b/quest-2-advanced-all-in-one-vr-headset-128-gb-oculus-original-imah3hzhzgd7gumk.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/motion-controller/u/w/s/quest-2-advanced-all-in-one-vr-headset-128-gb-oculus-original-imah3hzhauuhwxgc.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/motion-controller/x/d/r/quest-2-advanced-all-in-one-vr-headset-128-gb-oculus-original-imah3hzhbdqg2qch.jpeg?q=70&crop=false"
+  ],
+  "discountedPrice": "34,999",
+  "originalPrice": "39,999",
+  "discount": 13,
+  "assuredBadge": false,
+  "freeDelivery": true
+},
+{
+  "_id": {
+    "$oid": "66d0236f23d06ab266f5e7d6"
+  },
+  "brand": "Adidas",
+  "category": "Women",
+  "name": "Adidas Ultraboost 21",
+  "image": [
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/shoe/e/a/w/-original-imahfxt8drbtp7rz.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/shoe/c/w/3/-original-imahyrdbxrf8rfqs.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/shoe/0/3/l/-original-imahyrdbdfrx4ben.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/shoe/f/e/s/-original-imahyrdbjtjyn4jn.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/shoe/f/h/x/-original-imahyrdb2emvktag.jpeg?q=70&crop=false"
+  ],
+  "discountedPrice": "15,499",
+  "originalPrice": "18,000",
+  "discount": 14,
+  "assuredBadge": false,
+  "freeDelivery": true
+},
+{
+  "_id": {
+    "$oid": "66d0236f23d06ab266f5e7d7"
+  },
+  "brand": "Nike",
+  "category": "Women",
+  "name": "Nike Air Max 90",
+  "image": [
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/shoe/2/o/y/-original-imah33krd3ppxxnp.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/shoe/d/5/k/-original-imah33krg46452z6.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/shoe/i/1/4/-original-imah33krejzphc2y.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/shoe/u/w/2/-original-imah33kr79ahzjh7.jpeg?q=70&crop=false"
+  ],
+  "discountedPrice": "13,499",
+  "originalPrice": "15,500",
+  "discount": 13,
+  "assuredBadge": true,
+  "freeDelivery": false
+},
+{
+  "_id": {
+    "$oid": "66d0236f23d06ab266f5e7d8"
+  },
+  "brand": "Levi's",
+  "category": "Women",
+  "name": "Levi's 711 Skinny Jeans",
+  "image": [
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/jean/j/5/6/-original-imaghxnbghbgfqjz.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/jean/p/s/8/-original-imaghxnbgcfy8gyz.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/jean/q/l/h/-original-imagpyvynsu2yehg.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/jean/t/j/u/-original-imaghxnb7fae2hvn.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/jean/u/k/v/-original-imaghxnbzz2bhz3p.jpeg?q=70&crop=false"
+  ],
+  "discountedPrice": "2,799",
+  "originalPrice": "3,800",
+  "discount": 26,
+  "assuredBadge": true,
+  "freeDelivery": true
+},
+{
+  "_id": {
+    "$oid": "66d0236f23d06ab266f5e7d9"
+  },
+  "brand": "Tommy Hilfiger",
+  "category": "Women",
+  "name": "Tommy Hilfiger Polo Dress",
+  "image": [
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/dress/a/5/n/s-dr11311-sheetal-associates-original-imah3cjq8njzvere.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/dress/a/e/p/s-dr11311-sheetal-associates-original-imah3cjqkyaefgzj.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/dress/a/g/g/s-dr11311-sheetal-associates-original-imah3cjqhgg2mskb.jpeg?q=70&crop=false"
+  ],
+  "discountedPrice": "4,299",
+  "originalPrice": "5,500",
+  "discount": 22,
+  "assuredBadge": false,
+  "freeDelivery": true
+},
+{
+  "_id": {
+    "$oid": "66d0236f23d06ab266f5e7da"
+  },
+  "brand": "H&M",
+  "category": "Women",
+  "name": "H&M Floral Maxi Dress",
+  "image": [
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/dress/6/u/q/m-8001-zwerlon-original-imah242wngzfgytn.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/dress/g/h/j/m-8001-zwerlon-original-imah242wzgrvatka.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/dress/h/j/h/m-8001-zwerlon-original-imah242wxut2d7pf.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/dress/q/v/2/m-8001-zwerlon-original-imah242wp5rhhd4e.jpeg?q=70&crop=false"
+  ],
+  "discountedPrice": "2,299",
+  "originalPrice": "2,800",
+  "discount": 18,
+  "assuredBadge": true,
+  "freeDelivery": false
+},
+{
+  "_id": {
+    "$oid": "66d0236f23d06ab266f5e7db"
+  },
+  "brand": "Zara",
+  "category": "Women",
+  "name": "Zara Basic Blazer",
+  "image": [
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/shopsy-jumpsuit/b/1/g/m-vesko-life-style-women-original-imagrgvyjrbbsqxh.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/shopsy-jumpsuit/8/g/p/m-vesko-life-style-women-original-imagrgvyrznn9wvy.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/shopsy-jumpsuit/6/z/z/s-vesko-life-style-women-original-imagrgvy8enhazsk.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/shopsy-jumpsuit/u/u/p/m-vesko-life-style-women-original-imagrgvyskcwuse2.jpeg?q=70&crop=false"
+  ],
+  "discountedPrice": "4,999",
+  "originalPrice": "6,500",
+  "discount": 23,
+  "assuredBadge": true,
+  "freeDelivery": true
+},
+{
+  "_id": {
+    "$oid": "66d0236f23d06ab266f5e7dc"
+  },
+  "brand": "Forever 21",
+  "category": "Women",
+  "name": "Forever 21 Crop Top",
+  "image": [
+    "https://rukminim2.flixcart.com/image/128/128/kv8fbm80/top/c/j/x/l-59002202-forever-21-original-imag86cvwuvska7d.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/kv8fbm80/top/t/9/5/l-59002202-forever-21-original-imag86cvejsgmgek.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/kv8fbm80/top/u/g/0/l-59002202-forever-21-original-imag86cv7qd3r4zm.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/kv8fbm80/top/w/m/k/l-59002202-forever-21-original-imag86cvg5ydw3gy.jpeg?q=70&crop=false"
+  ],
+  "discountedPrice": "999",
+  "originalPrice": "1,200",
+  "discount": 17,
+  "assuredBadge": false,
+  "freeDelivery": true
+},
+{
+  "_id": {
+    "$oid": "66d0236f23d06ab266f5e7dd"
+  },
+  "brand": "Michael Kors",
+  "category": "Women",
+  "name": "Michael Kors Handbag",
+  "image": [
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/hand-messenger-bag/9/s/8/-original-imagzhag4phjdj3g.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/hand-messenger-bag/9/p/v/-original-imagzhag3u3qydve.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/hand-messenger-bag/2/r/j/-original-imagzhagfjgyfvfu.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/hand-messenger-bag/9/x/j/-original-imagzhag7v6zxqsw.jpeg?q=70&crop=false"
+  ],
+  "discountedPrice": "12,499",
+  "originalPrice": "14,500",
+  "discount": 14,
+  "assuredBadge": true,
+  "freeDelivery": false
+},
+{
+  "_id": {
+    "$oid": "66d0236f23d06ab266f5e7de"
+  },
+  "brand": "Kate Spade",
+  "category": "Women",
+  "name": "Kate Spade Wallet",
+  "image": [
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/hand-messenger-bag/c/f/2/kate-solid-structured-tote-bag-for-women-10-mhb0031to-tote-original-imah3h3kaddgghyb.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/hand-messenger-bag/g/x/l/kate-solid-structured-tote-bag-for-women-10-mhb0031to-tote-original-imah3h3kg6qdngbf.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/hand-messenger-bag/j/j/x/kate-solid-structured-tote-bag-for-women-10-mhb0031to-tote-original-imah3h3kqmeeenbx.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/hand-messenger-bag/n/j/n/kate-solid-structured-tote-bag-for-women-10-mhb0031to-tote-original-imah3h3kf6dhnygy.jpeg?q=70&crop=false"
+  ],
+  "discountedPrice": "4,499",
+  "originalPrice": "5,500",
+  "discount": 18,
+  "assuredBadge": true,
+  "freeDelivery": true
+},
+{
+  "_id": {
+    "$oid": "66d0236f23d06ab266f5e7df"
+  },
+  "brand": "Clarks",
+  "category": "Women",
+  "name": "Clarks Desert Boots",
+  "image": [
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/shoe/2/f/l/12-26166779-clarks-black-sde-original-imags8r2rp4ywpu6.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/shoe/6/q/i/12-26166779-clarks-black-sde-original-imags8r2jbhdczgy.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/shoe/6/y/a/12-26166779-clarks-black-sde-original-imags8r2h2fechgp.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/shoe/g/h/m/12-26166779-clarks-black-sde-original-imags8r2cgt8hzkc.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/shoe/e/7/r/12-26166779-clarks-black-sde-original-imags8r2tf4gch9v.jpeg?q=70&crop=false"
+  ],
+  "discountedPrice": "8,499",
+  "originalPrice": "10,000",
+  "discount": 15,
+  "assuredBadge": false,
+  "freeDelivery": true
+},
+{
+  "_id": {
+    "$oid": "66d0237623d06ab266f5e7e0"
+  },
+  "brand": "Nike",
+  "category": "Men",
+  "name": "Nike Air Max 270",
+  "image": [
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/shoe/j/q/e/-original-imahfqy6utnctuyd.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/shoe/9/y/n/-original-imahfqy63qzesbkh.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/shoe/2/9/j/-original-imahfqy6umn5wpxe.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/shoe/1/s/t/-original-imahfqy6w6pbr4bd.jpeg?q=70&crop=false"
+  ],
+  "discountedPrice": "12,499",
+  "originalPrice": "15,000",
+  "discount": 17,
+  "assuredBadge": true,
+  "freeDelivery": false
+},
+{
+  "_id": {
+    "$oid": "66d0237623d06ab266f5e7e1"
+  },
+  "brand": "Adidas",
+  "category": "Men",
+  "name": "Adidas Ultraboost 21",
+  "image": [
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/shoe/e/a/w/-original-imahfxt8drbtp7rz.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/shoe/c/w/3/-original-imahyrdbxrf8rfqs.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/shoe/0/3/l/-original-imahyrdbdfrx4ben.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/shoe/f/e/s/-original-imahyrdbjtjyn4jn.jpeg?q=70&crop=false"
+  ],
+  "discountedPrice": "15,499",
+  "originalPrice": "18,000",
+  "discount": 14,
+  "assuredBadge": false,
+  "freeDelivery": true
+},
+{
+  "_id": {
+    "$oid": "66d0237623d06ab266f5e7e2"
+  },
+  "brand": "Puma",
+  "category": "Men",
+  "name": "Puma RS-X3",
+  "image": [
+    "https://rukminim2.flixcart.com/image/128/128/l432ikw0/shoe/y/v/w/-original-imagf255wazhzbfs.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/kjhgzgw0-0/shoe/z/k/k/380462-8-puma-white-tigerlily-original-imafzfgfhytavbhv.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/kjhgzgw0-0/shoe/o/t/v/380462-8-puma-white-tigerlily-original-imafzfgf4tvpqkmg.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/kjhgzgw0-0/shoe/m/v/q/380462-8-puma-white-tigerlily-original-imafzfgftqzazu2n.jpeg?q=70&crop=false"
+  ],
+  "discountedPrice": "10,999",
+  "originalPrice": "13,000",
+  "discount": 15,
+  "assuredBadge": true,
+  "freeDelivery": false
+},
+{
+  "_id": {
+    "$oid": "66d0237623d06ab266f5e7e3"
+  },
+  "brand": "Levi's",
+  "category": "Men",
+  "name": "Levi's 511 Slim Fit Jeans",
+  "image": [
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/jean/f/z/x/32-a7087-0070-levi-s-original-imagxp4zwczuypa3.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/jean/b/e/x/32-a7087-0070-levi-s-original-imagxp4zwmknfrp3.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/jean/m/o/b/32-a7087-0070-levi-s-original-imagxp4zpgzpw86g.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/jean/m/t/x/32-a7087-0070-levi-s-original-imagxp4zkvbhm7gy.jpeg?q=70&crop=false"
+  ],
+  "discountedPrice": "2,499",
+  "originalPrice": "3,500",
+  "discount": 29,
+  "assuredBadge": true,
+  "freeDelivery": true
+},
+{
+  "_id": {
+    "$oid": "66d0237623d06ab266f5e7e4"
+  },
+  "brand": "Tommy Hilfiger",
+  "category": "Men",
+  "name": "Tommy Hilfiger Casual Shirt",
+  "image": [
+    "https://rukminim2.flixcart.com/image/832/832/xif0q/shirt/3/x/f/-original-imagt853twnphqfa.jpeg?q=70&crop=false"
+  ],
+  "discountedPrice": "3,299",
+  "originalPrice": "4,500",
+  "discount": 27,
+  "assuredBadge": false,
+  "freeDelivery": true
+},
+{
+  "_id": {
+    "$oid": "66d0237623d06ab266f5e7e5"
+  },
+  "brand": "Under Armour",
+  "category": "Men",
+  "name": "Under Armour Tech 2.0 T-Shirt",
+  "image": [
+    "https://rukminim2.flixcart.com/image/832/832/xif0q/t-shirt/o/n/9/-original-imagubhzv66whqfx.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/t-shirt/d/7/0/-original-imagubhzzzvdpvkb.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/t-shirt/e/8/4/-original-imagubhzmr6egzzp.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/t-shirt/j/v/w/-original-imagubhzvzhmv9ar.jpeg?q=70&crop=false"
+  ],
+  "discountedPrice": "1,499",
+  "originalPrice": "1,800",
+  "discount": 17,
+  "assuredBadge": true,
+  "freeDelivery": false
+},
+{
+  "_id": {
+    "$oid": "66d0237623d06ab266f5e7e6"
+  },
+  "brand": "Reebok",
+  "category": "Men",
+  "name": "Reebok Classic Leather",
+  "image": [
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/shoe/n/w/p/-original-imah46jpaqvbdwj6.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/shoe/e/o/m/-original-imah46jpufgga6h8.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/shoe/b/6/o/-original-imah46jpkgugpgjw.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/shoe/0/q/e/-original-imah46jpzygjfkhz.jpeg?q=70&crop=false"
+  ],
+  "discountedPrice": "11,499",
+  "originalPrice": "13,500",
+  "discount": 15,
+  "assuredBadge": false,
+  "freeDelivery": true
+},
+{
+  "_id": {
+    "$oid": "66d0237623d06ab266f5e7e7"
+  },
+  "brand": "Calvin Klein",
+  "category": "Men",
+  "name": "Calvin Klein Boxer Briefs",
+  "image": [
+    "https://rukminim2.flixcart.com/image/128/128/k6tniq80/trunk/v/g/g/95-cm-griptrunk-001-solo-original-imafp7affufbe9yk.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/k6tniq80/trunk/v/g/g/95-cm-griptrunk-001-solo-original-imafp7afsd3g6g6v.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/k6tniq80/trunk/v/g/g/95-cm-griptrunk-001-solo-original-imafp7afvyyfw9hr.jpeg?q=70&crop=false"
+  ],
+  "discountedPrice": "1,299",
+  "originalPrice": "1,600",
+  "discount": 19,
+  "assuredBadge": true,
+  "freeDelivery": true
+},
+{
+  "_id": {
+    "$oid": "66d0237623d06ab266f5e7e8"
+  },
+  "brand": "Hugo Boss",
+  "category": "Men",
+  "name": "Hugo Boss Formal Shoes",
+  "image": [
+    "https://rukminim2.flixcart.com/image/128/128/l2qhjm80/shoe/g/z/u/10-holli-301-10-aadi-black-original-imagdzrqctzzw7hx.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/l2qhjm80/shoe/g/l/b/10-holli-301-10-aadi-black-original-imagdzrqtukkhpxa.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/l2qhjm80/shoe/0/h/r/10-holli-301-10-aadi-black-original-imagdzrqg3buw2jn.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/l2qhjm80/shoe/v/a/e/10-holli-301-10-aadi-black-original-imagdzrqyufppgcc.jpeg?q=70&crop=false"
+  ],
+  "discountedPrice": "9,999",
+  "originalPrice": "12,000",
+  "discount": 17,
+  "assuredBadge": true,
+  "freeDelivery": false
+},
+{
+  "_id": {
+    "$oid": "66d0237623d06ab266f5e7e9"
+  },
+  "brand": "Jack & Jones",
+  "category": "Men",
+  "name": "Jack & Jones Slim Fit Blazer",
+  "image": [
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/blazer/2/e/0/l-146391102-jack-jones-original-imagtep8hayuwkwy.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/blazer/8/v/h/l-146391102-jack-jones-original-imagtep85vthmgcs.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/blazer/d/e/h/l-146391102-jack-jones-original-imagtep8h3rzyckj.jpeg?q=70&crop=false",
+    "https://rukminim2.flixcart.com/image/128/128/xif0q/blazer/e/e/l/l-146391102-jack-jones-original-imagtep8smcxm9zs.jpeg?q=70&crop=false"
+  ],
+  "discountedPrice": "5,999",
+  "originalPrice": "7,500",
+  "discount": 20,
+  "assuredBadge": false,
+  "freeDelivery": true
+}]
