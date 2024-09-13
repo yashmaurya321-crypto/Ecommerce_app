@@ -1,10 +1,11 @@
-import * as React from 'react';
+import React, { useEffect, useState } from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import { createStackNavigator } from '@react-navigation/stack';
-import { useSelector } from 'react-redux';
-import { StyleSheet, View } from 'react-native';
+import { StyleSheet, View, ActivityIndicator } from 'react-native';
+import AsyncStorage from '@react-native-async-storage/async-storage';
+import { useDispatch } from 'react-redux';
 import Home from './bottam/Home';
 import Profile from './bottam/Profile';
 import Cart from './bottam/Cart';
@@ -18,7 +19,8 @@ import { Provider } from 'react-redux';
 import store from './redux/store';
 import Login from './Components/Login';
 import Register from './Components/Register';
-
+import { addToCart } from './redux/cartSlice'; // Adjust the import based on your action file
+import {addToWishlist} from './redux/wishListSlice'
 const Stack = createStackNavigator();
 const Tab = createBottomTabNavigator();
 
@@ -125,10 +127,9 @@ const MainTab = () => {
   );
 };
 
-const RootStack = () => {
+const AuthStack = () => {
   return (
     <Stack.Navigator screenOptions={{ headerShown: false }}>
-      <Stack.Screen name="Main" component={MainTab} />
       <Stack.Screen name="Login" component={Login} />
       <Stack.Screen name="Register" component={Register} />
     </Stack.Navigator>
@@ -136,9 +137,48 @@ const RootStack = () => {
 };
 
 const Main = () => {
+  const [isLoading, setIsLoading] = useState(true);
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    const checkAuthentication = async () => {
+      try {
+        const user = await AsyncStorage.getItem('user');
+        setIsAuthenticated(!!user);
+
+        if (user) {
+          const userData = JSON.parse(user);
+
+         
+          if (userData.cart) {
+            dispatch(addToCart(...userData.cart));
+            console.log('Cart items added from AsyncStorage:', userData.cart);
+            console.log('User', userData);
+          }
+          if(userData.wishlist){
+            dispatch(addToWishlist(...userData.wishlist));
+            console.log('Wishlist items added from AsyncStorage:', userData.wishlist);
+            console.log('User', userData);
+          }
+        }
+      } catch (error) {
+        console.error('Failed to check authentication:', error);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    checkAuthentication();
+  }, [dispatch]);
+
+  if (isLoading) {
+    return <ActivityIndicator size="large" color="#0000ff" />;
+  }
+
   return (
     <NavigationContainer>
-      <RootStack />
+      {isAuthenticated ? <MainTab /> : <AuthStack />}
     </NavigationContainer>
   );
 };

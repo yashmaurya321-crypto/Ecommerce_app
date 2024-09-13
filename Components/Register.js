@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import { View, Text, TextInput, TouchableOpacity, Image, StyleSheet } from 'react-native';
+import { View, Text, TextInput, TouchableOpacity, Image, StyleSheet, Alert } from 'react-native';
 import { useDispatch } from 'react-redux';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const Register = ({ navigation }) => {
   const [username, setUsername] = useState('');
@@ -8,12 +9,33 @@ const Register = ({ navigation }) => {
   const [password, setPassword] = useState('');
   const dispatch = useDispatch();
 
-  const handleRegister = () => {
-    // Dispatch the register action with user details
-    // dispatch(registerUser({ username, email, password }));
+  // Function to store data in AsyncStorage
+  const storeData = async () => {
+    try {
+      // Creating a user object
+      const user = {
+        username: username,
+        email: email,
+        password: password,
+      };
 
-    // Navigate to login screen or home after registration
-    navigation.navigate('Login');
+      // Storing user data in local storage
+      await AsyncStorage.setItem('user', JSON.stringify(user));
+      Alert.alert('Success', 'Registration successful, data stored locally!');
+
+      // Navigate to the Login screen
+      navigation.navigate('Login');
+    } catch (error) {
+      Alert.alert('Error', 'Failed to store data');
+    }
+  };
+
+  const handleRegister = () => {
+    if (username && email && password) {
+      storeData();
+    } else {
+      Alert.alert('Error', 'Please fill all the fields');
+    }
   };
 
   return (
@@ -26,7 +48,6 @@ const Register = ({ navigation }) => {
         value={username}
         onChangeText={setUsername}
       />
-
       <TextInput
         style={styles.input}
         placeholder="Email"
@@ -34,7 +55,6 @@ const Register = ({ navigation }) => {
         onChangeText={setEmail}
         keyboardType="email-address"
       />
-
       <TextInput
         style={styles.input}
         placeholder="Password"
@@ -42,11 +62,9 @@ const Register = ({ navigation }) => {
         onChangeText={setPassword}
         secureTextEntry
       />
-
       <TouchableOpacity style={styles.button} onPress={handleRegister}>
         <Text style={styles.buttonText}>Register</Text>
       </TouchableOpacity>
-
       <View style={styles.loginRedirect}>
         <Text style={styles.loginText}>Already have an account?</Text>
         <TouchableOpacity onPress={() => navigation.navigate('Login')}>
@@ -74,10 +92,10 @@ const styles = StyleSheet.create({
     color: '#333',
   },
   image: {
-    width: 200, // Adjust as needed
-    height: 200, // Adjust as needed
+    width: 200,
+    height: 200,
     marginBottom: 20,
-    borderRadius: 50, 
+    borderRadius: 50,
   },
   input: {
     width: '100%',

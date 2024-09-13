@@ -20,11 +20,16 @@
         "backgroundColor": "#ffffff",
         "foregroundImageScale": 1
       },
-    
-       "icon": "./assets/icon.png"
+      "icon": "./assets/icon.png",
+      "package": "com.yashmaurya21.ecommerceapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7b4f4cef-65c2-4b1d-9bcd-aa3a437cde49"
+      }
     }
   }
 }

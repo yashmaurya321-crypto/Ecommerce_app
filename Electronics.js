@@ -1,4 +1,4 @@
-[
+ export default Electronic = [
     {
         "brand": "Apple",
         "category": "Electronics",

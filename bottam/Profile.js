@@ -1,8 +1,26 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, Image } from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const Profile = ({ navigation }) => {
+  const [user, setUser] = useState({ name: 'John Doe', email: 'johndoe@example.com' });
+
+  useEffect(() => {
+    const fetchUserData = async () => {
+      try {
+        const userData = await AsyncStorage.getItem('user');
+        if (userData) {
+          setUser(JSON.parse(userData));
+        }
+      } catch (error) {
+        console.error('Failed to fetch user data:', error);
+      }
+    };
+
+    fetchUserData();
+  }, []);
+
   return (
     <View style={styles.container}>
       {/* Profile Header */}
@@ -16,8 +34,8 @@ const Profile = ({ navigation }) => {
           source={{ uri: 'https://via.placeholder.com/100' }}
           style={styles.profileImage}
         />
-        <Text style={styles.profileName}>John Doe</Text>
-        <Text style={styles.profileEmail}>johndoe@example.com</Text>
+        <Text style={styles.profileName}>{user.username}</Text>
+        <Text style={styles.profileEmail}>{user.email}</Text>
       </View>
 
       {/* Profile Options */}
@@ -32,15 +50,17 @@ const Profile = ({ navigation }) => {
           <Text style={styles.optionText}>Wishlist</Text>
         </TouchableOpacity>
 
-
         <TouchableOpacity style={styles.option} onPress={() => navigation.navigate('SupportScreen')}>
           <Icon name="help-circle-outline" size={24} color="#000" />
           <Text style={styles.optionText}>Support</Text>
         </TouchableOpacity>
 
-        <TouchableOpacity style={styles.logoutButton} onPress={() => {navigation.navigate('Login')}}>
+        <TouchableOpacity style={styles.logoutButton} onPress={async () => {
+          await AsyncStorage.removeItem('user');
+          navigation.navigate('Login');
+        }}>
           <Icon name="log-out-outline" size={24} color="#125B9A" />
-          <Text style={styles.logoutText}>Log Out</Text>
+          <Text style={styles.logoutText}>Deleate Account</Text>
         </TouchableOpacity>
       </View>
     </View>
@@ -56,7 +76,7 @@ const styles = StyleSheet.create({
   },
   header: {
     backgroundColor: '#7695FF',
-    paddingTop : 30,
+    paddingTop: 30,
     paddingVertical: 20,
     alignItems: 'center',
   },

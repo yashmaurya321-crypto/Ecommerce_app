@@ -1,14 +1,48 @@
 import React from 'react';
-import { StyleSheet, Text, View, FlatList, TouchableOpacity, Image } from 'react-native';
+import { StyleSheet, Text, View, FlatList, TouchableOpacity, Image, Alert } from 'react-native';
 import { useSelector, useDispatch } from 'react-redux';
 import { removeFromWishlist } from '../../redux/wishListSlice';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const WishList = () => {
   const wishlistItems = useSelector((state) => state.wishlist.items);
   const dispatch = useDispatch();
 
-  const handleRemoveFromWishlist = (id) => {
-    dispatch(removeFromWishlist(id));
+  const handleRemoveFromWishlist = async (name) => {
+    if (name) {
+      try {
+        // Fetch existing user data
+        const userData = await AsyncStorage.getItem('user');
+        if (userData) {
+          const user = JSON.parse(userData);
+  
+          // Check if wishlist exists and is an array
+          if (user.wishlist && Array.isArray(user.wishlist)) {
+            // Filter out the item with the given name
+            const updatedWishlist = user.wishlist.filter(item => item.name !== name);
+            user.wishlist = updatedWishlist;
+  
+            // Save updated user data
+            await AsyncStorage.setItem('user', JSON.stringify(user));
+            Alert.alert('Success', 'Item removed from wishlist!');
+  
+            // Dispatch action to update wishlist in Redux store
+            dispatch(removeFromWishlist(name));
+          } else {
+            Alert.alert('Error', 'Wishlist is empty or not found.');
+          }
+        } else {
+          Alert.alert('Error', 'No user data found. Please log in.');
+          // Optionally, you can redirect the user to the login screen here
+          // navigation.navigate('Login'); // Uncomment if navigation prop is available
+        }
+      } catch (error) {
+        console.error('Failed to remove item from wishlist:', error);
+        Alert.alert('Error', 'Failed to remove item from wishlist.');
+      }
+    } else {
+      console.error('Invalid item name:', name);
+    }
   };
 
   const renderWishlistItem = ({ item }) => {
@@ -17,12 +51,12 @@ const WishList = () => {
 
     return (
       <View style={styles.item}>
-        <Image source={{ uri: item.image }} style={styles.image} />
+        <Image source={{ uri: item.image[0] }} style={styles.image} />
         <View style={styles.details}>
           <Text style={styles.name}>{item.name}</Text>
           <Text style={styles.price}>${item.discountedPrice}</Text>
           <TouchableOpacity
-            onPress={() => handleRemoveFromWishlist(item.id)}
+            onPress={() => handleRemoveFromWishlist(item.name)}
             style={styles.removeButton}
           >
             <Text style={styles.removeButtonText}>Remove</Text>
@@ -37,7 +71,7 @@ const WishList = () => {
       <FlatList
         data={wishlistItems}
         renderItem={renderWishlistItem}
-        keyExtractor={(item) => item.id.toString()}
+        keyExtractor={(item) => item.name.toString()}
       />
     </View>
   );

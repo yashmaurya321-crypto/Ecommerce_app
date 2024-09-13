@@ -1,4 +1,4 @@
-[
+export default Girl = [
     {
         "brand": "Adidas",
         "category": "Women",

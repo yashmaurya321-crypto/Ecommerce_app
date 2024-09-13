@@ -1,4 +1,4 @@
-[
+export default Men = [
     {
         "brand": "Tommy Hilfiger",
         "category": "Women",

@@ -8,7 +8,7 @@ const ProductCard = ({ product }) => {
   return (
     <TouchableOpacity onPress={() => navigation.navigate('ProductPage', { product })}>
     <Card style={styles.productCard}>
-      <Card.Cover source={{ uri: product.image }} style={styles.productImage} />
+      <Card.Cover source={{ uri: product.image[0] }} style={styles.productImage} />
       <Icon name="heart-outline" size={24} color="#888" style={styles.heartIcon} />
       <Card.Content>
         <Title style={styles.productTitle}>{product.brand}</Title>
