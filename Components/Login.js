@@ -8,31 +8,14 @@ const Login = ({ navigation }) => {
   const [password, setPassword] = useState('');
   const [error, setError] = useState(null);
 
-  const checkUser = async () => {
-    try {
-      const userData = await AsyncStorage.getItem('user');
-      const user = JSON.parse(userData);
-
-      if (user && user.email === email && user.password === password) {
-        Alert.alert('Success', 'Login successful!');
-        navigation.reset({
-          index: 0,
-          routes: [{ name: 'ProfileScreen' }],
-        });
-      } else {
-        setError('Invalid email or password');
-      }
-    } catch (error) {
-      setError('Failed to retrieve user data');
-    }
-  };
 
   const handleLogin = () => {
-    if (email && password) {
-      checkUser();
-    } else {
-      setError('Please enter both email and password');
-    }
+  if(email === 'admin' && password === 'admin'){
+    AsyncStorage.setItem('user', JSON.stringify({ email: email, username : "Yash"  }));
+   Updates.reloadAsync();
+  }else{
+    setError('Invalid email or password');
+  }
   };
 
   const handleRetry = () => {

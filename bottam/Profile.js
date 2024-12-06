@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, Image } from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-
+import * as Updates from 'expo-updates';
 const Profile = ({ navigation }) => {
   const [user, setUser] = useState({ name: 'John Doe', email: 'johndoe@example.com' });
 
@@ -57,7 +57,7 @@ const Profile = ({ navigation }) => {
 
         <TouchableOpacity style={styles.logoutButton} onPress={async () => {
           await AsyncStorage.removeItem('user');
-          navigation.navigate('Login');
+await Updates.reloadAsync();
         }}>
           <Icon name="log-out-outline" size={24} color="#125B9A" />
           <Text style={styles.logoutText}>Deleate Account</Text>
